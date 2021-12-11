@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wtf.x.xposed.xperia_volte_remover">
+
+    <application
+        android:allowBackup="true"
+        android:label="Xperia Hide VoLTE">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Remove the VoLTE icon from Xperia PRO-I" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/scope" />
+    </application>
+</manifest>
